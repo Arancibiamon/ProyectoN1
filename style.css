@@ -103,11 +103,10 @@
     grid-template-columns: 60% 40%;
   }
   .grid-item-1,
-.grid-item-2 {
+  .grid-item-2 {
   position: relative;
   top: 50px;
-  
-}
+ }
 .showcase input[type='email'] {
     padding: 10px 70px 10px 0;
     font-size: 14px;
@@ -318,5 +317,4 @@ footer {
     margin: 10px 0;
     line-height: 1.2;
     }
-
  }
