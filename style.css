@@ -6,6 +6,12 @@
     body {
     font-family: 'Ubuntu', sans-serif;
     color: whitesmoke;
+    background-image: url("./imagenes/imagenfondo2.jpg");
+    background-color: transparent;
+    background-repeat:repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: contain;
   }
     a {
     color: black;
@@ -131,6 +137,7 @@
     padding: 0;
     max-width: 1400px;
     
+        
   }
   .title {
     color: black;
@@ -150,16 +157,31 @@
 .flex {
     display: flex;
     justify-content: space-around;
+
   }
   .stats {
     padding: 45px 50px;
     text-align: center;
   }
-  .stat {
+  .stat1 {
     margin: 0 30px;
     text-align: center;
     width: 800px;
-  }
+    border: 9px double #c91111;
+
+}
+  .stat2 {
+    margin: 0 30px;
+    text-align: center;
+    width: 800px;
+    border: 9px double #c91111;
+}
+.stat3 {
+  margin: 0 30px;
+  text-align: center;
+  width: 800px;
+  border: 9px double #c91111;
+}
   .stats .fa {
     color: red;
   }
@@ -183,9 +205,11 @@
     padding: 10px;
     background-color: white;
     border-radius: 10px;
+    margin-left: 10px;
     box-shadow: -7px -7px 20px rgba(0, 0, 0, 0.2),
                  7px  7px 20px rgba(0, 0, 0, 0.2)
   }
+  
   .circle {
     background-color: transparent;
     border:3px solid red;
