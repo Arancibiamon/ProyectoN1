@@ -87,6 +87,7 @@
   .showcase {
     height: 400px;
     background-color: red;
+    margin-bottom: 110px;
   }
 .showcase p {
     margin-bottom: 30px;
@@ -134,8 +135,7 @@
   
   }
 .lower-container {
-    margin: 120px auto;
-    padding: 0;
+    margin: 100px auto;
     max-width: 1400px;
     
         
@@ -189,7 +189,8 @@
     padding: 10px;
     background-color: white;
     border-radius: 10px;
-    margin-left: 20px;
+    margin-left: 100px;
+    margin-bottom: 100px;
     box-shadow: -7px -7px 20px rgba(0, 0, 0, 0.2),
                  7px  7px 20px rgba(0, 0, 0, 0.2)
   }
